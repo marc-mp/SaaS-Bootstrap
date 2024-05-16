@@ -1,0 +1,237 @@
+
+$primary: #5265E1;
+$secondary: #FA5959;
+$danger: rgb(35, 35, 68);
+$card-border-color: white;
+ 
+
+header {
+
+  .navbar-nav {
+    font-size: 10px;
+    margin-right: 65px;
+    font-weight:600;
+    .nav-item {
+        margin: auto 10px;
+        font-family:Arial;
+    }
+  
+    .btn {
+      font-family:Arial;
+      font-size: 12px;
+      font-weight:600;
+      padding-left: 30px;
+      padding-right: 30px;
+      margin-left: 15px;
+      height: 38px;
+    }
+  }
+
+  .navbar-toggler{
+    border-color: white;
+  }
+}
+
+.card {
+
+  h1 {
+      font-size: 40px;
+      font-weight:700;
+      margin-bottom: 20px;
+  }
+
+  p {
+    font-size: 17px;
+    font-weight:500;
+    margin-bottom: 20px;
+  }
+
+  .btn-primary {
+    font-size: 14px;
+    font-weight:500;
+    padding: 9px 20px;
+  }
+
+  .btn-light {
+    font-size: 12px;
+    margin-left: 15px;
+    padding: 9px 20px;
+    font-weight:800;
+  }
+
+  h2 {
+    font-size: 30px;
+    font-weight:700;
+    margin-bottom: 20px;
+  }
+}
+
+.nav-tabs {
+    .active {
+      font-weight: bold;
+      border-bottom: 4px solid $secondary !important;   
+    }
+
+    .nav-link {
+      font-size: 16px;
+      font-weight:600;
+      padding-bottom: 20px;
+    }
+  }
+
+h5 {
+  font-size: 20px;
+  font-weight: bold;
+  }
+
+p {
+  font-size: 15px;
+  font-weight: 600;
+  padding: 12px;
+}
+
+.card-body-logo {
+  padding-top: 40px;
+  .boton {
+    padding: 20px;
+  
+    .btn-primary {
+    font-size: 15px;
+    padding: 10px 29px;
+    }
+  }
+}
+
+.accordion-item {
+  .accordion-button {
+    font-size: 16px;
+    font-weight: 620;
+    color: rgb(70, 65, 65);
+  }
+  // .accordion-button::after{
+  //   background-image: url("./img/icon-arrow.svg") !important; 
+  // }
+}
+
+ 
+.container-moreInfo {
+  .btn-primary{
+    font-size: 14px;
+    font-weight:500;
+    padding: 9px 20px;
+  }
+}
+
+.card-footer {
+
+  .btn-secondary {
+    height: 42px;
+    width: 126px;
+    font-family:sans-serif;
+    font-size: 12px;
+    font-weight:700;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 10px;
+    }
+    
+    h2 {
+      font-size: 36;
+    }
+
+    .email {
+      border: white;
+      height: 42px;
+      width: 280px;
+      color: rgb(241, 238, 238);
+      font-size: 14px;
+    }
+}
+  
+.navbar {
+  height: 80px;
+  .nav-link {
+    font-size: 13px;
+    font-family: arial;
+    font-weight:600;
+    color: rgb(175, 166, 166);
+    }
+}
+
+
+
+
+//     /* VERSIO MOBIL */
+
+@media all and (max-width: 767px) {
+ 
+  .card {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .nav-tabs {
+    display: flex;
+    flex-direction: column
+  }
+
+  .tab-content {
+    .card{
+      margin-top: 80px;
+      .btn{
+        display: none
+      }
+    }
+  }
+
+ 
+  .extensions {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:auto;
+  }  
+  
+
+  footer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    .email {
+      display: flex;
+      flex-direction: column;
+      margin:auto;
+    }
+    .btn-secondary {
+      display: flex;
+      flex-direction: column;
+      margin:15px auto;
+
+    }
+  }
+
+
+  .nav {
+    .footer {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      margin:auto;
+      }
+    }
+}
+
+
+
+
+@import "./node_modules/bootstrap/scss/functions";
+@import "./node_modules/bootstrap/scss/variables";
+@import "./node_modules/bootstrap/scss/mixins";
+
+
+@import "./node_modules/bootstrap/scss/bootstrap";
+

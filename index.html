@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+<body>
+  <header>
+    <div class="container-fluid">
+      <nav class="navbar navbar-expand-lg bg-white fixed-top">
+        <div class="container">
+          <a class="navbar-brand ms-3" href="#">
+            <img
+            src="./img/logo-bookmark.svg"
+            alt="logo-bookmark"
+            width="140"
+            height="24"
+            />
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">FEATURES</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">PRICING</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link text-dark" href="#">CONTACT</a>
+              </li>
+              <button type="button" class="btn btn-secondary text-white">LOGIN</button>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div> 
+  </header>
+  <br><br><br><br><br>
+  <main>
+  <div class="container">
+    <div class="row d-flex justify-content-center">
+      <div class="col-sm-12 order-2 col-md-6 order-1 d-flex mt-5">
+        <div class="card" style="width: 92%;">
+          <div class="card-body">
+            <h1 class="card-title">A Simple Bookmark Manager</h1>
+            <p class="card-text text-black-50">A clean and simple interface to organize your favourite websites. Open a new browser tab and see your sites load instanly. Try it for free.</p>
+            <a href="#" class="btn btn-primary">Get it on Chrome</a>
+            <button type="button" class="btn btn-light text-black-50 shadow">Get it on Firefox</button>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-12 order-sm-1 text-center col-md-6 order-md-2 mt-4">
+        <img src="./img/illustration-hero.svg" class="ilustration" alt="illustration-hero" width="100%" height="100%">
+      </div>
+    </div>
+    <br><br>
+    <div class="row d-flex">
+      <div class="col-sm-12 col-md-6 mx-auto d-flex justify-content-center mt-5">
+        <div class="card" style="width: 35rem;">
+          <div class="card-body">
+            <h2 class="card-title text-center">Features</h2>
+            <p class="card-text text-center text-black-50">Our aim is to make it quick and easy for you to access your favourite websites. Your bookmarks sync between your devices so you can acces them on the go.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="row">
+      <div class="col-sm-12 d-flex justify-content-center">
+        <nav>
+          <div class="nav nav-tabs" id="nav-tab" role="tablist">
+            <button class="nav-link active text-dark" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home" type="button" role="tab" aria-controls="nav-home" aria-selected="true">Simple Bookmarking</button>
+            <button class="nav-link text-dark mx-5" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile" type="button" role="tab" aria-controls="nav-profile" aria-selected="false">Speedy Searching</button>
+            <button class="nav-link text-dark" id="nav-contact-tab" data-bs-toggle="tab" data-bs-target="#nav-contact" type="button" role="tab" aria-controls="nav-contact" aria-selected="false">Easy Sharing</button>
+          </div>
+        </nav>
+      </div>
+    </div>
+    <br><br>
+    <div class="tab-content" id="nav-tabContent">
+      <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab" tabindex="0">
+        <div class="row">
+          <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+              <img src="./img/illustration-features-tab-1.svg" alt="illustration-features-tab-1" width="95%"  height="90%">
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-end">
+            <div class="card" style="width: 30rem">
+              <div class="card-body">
+                <h2 class="card-title">Bookmark in one click</h2>
+                <p class="card-text text-black-50">Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.</p>
+                <a href="#" class="btn btn-primary">More info</a>
+              </div>
+            </div>
+          </div>
+        </div>  
+      </div>
+      <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab" tabindex="0">
+        <div class="row">  
+          <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+            <img src="./img/illustration-features-tab-2.svg" alt="illustration-features-tab-2" width="80%"  height="90%">
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex justify-content-end">
+            <div class="card" style="width: 30rem">
+              <div class="card-body">
+                <h2 class="card-title">Intelligent search</h2>
+                <p class="card-text text-black-50">Our powerfull search feature will help you find saved site in no time at all. No need to trawl through all of your bookmarks.</p>
+                <a href="#" class="btn btn-primary">More info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="nav-contact" role="tabpanel" aria-labelledby="nav-contact-tab" tabindex="0">
+        <div class="row">
+          <div class="col d-flex align-items-start justify-content-end">
+            <img src="./img/illustration-features-tab-3.svg" class="ilustration" alt="illustration-features-tab-3" width="77%"  height="90%">
+          </div>
+          <div class="col-sm-12 col-md-6 d-flex align-items-center justify-content-end ">
+            <div class="card" style="width: 30em">
+              <div class="card-body">
+                <h2 class="card-title">Share your bookmarks</h2>
+                <p class="card-text text-black-50">Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.</p>
+                <a href="#" class="btn btn-primary">More info</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br><br>
+    <div class="row">
+      <div class="col d-flex justify-content-center text-center">
+        <div class="card" style="width: 35rem;">
+          <div class="card-body">
+            <h2 class="card-title">Download the extension</h2>
+            <p class="card-text text-black-50">We've got more browsers in the pipeline. Please do let us know if you've got a favourite you'd like us to prioritize.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container-fluid d-flex justify-content-center">
+      <div class="row extensions" >
+        <div class="col-sm-12 col-md-4 text-center mb-5 d-flex align-items-start">
+          <div class="logo shadow rounded" style="width: 16rem;">
+            <div class="card-body-logo">
+              <img src="./img/logo-chrome.svg" alt="logo-chrome" width="36%">
+              <br><br>
+              <h5 class="card-title">Add to Chrome</h5>
+              <p class="card-text text-black-50">Minimum version 62 </p>
+              <img src="./img/bg-dots.svg" class="imagenDots" alt="dots" style="width: 90%;">
+              <div class="boton"> 
+                <a href="#" class="btn btn-primary">Add & install extension</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 text-center d-flex align-items-center">
+          <div class="logo shadow rounded mx-auto " style="width: 16rem;">
+            <div class="card-body-logo">
+              <img src="./img/logo-firefox.svg" alt="logo-Firefox" width="36%">
+              <br><br>
+              <h5 class="card-title">Add to Firefox</h5>
+              <p class="card-text text-black-50">Minimum version 55 </p>
+              <img src="./img/bg-dots.svg" class="imagenDots" alt="dots" style="width: 90%;">
+              <div class="boton"> 
+                <a href="#" class="btn btn-primary">Add & install extension</a>
+            </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-sm-12 col-md-4 col-lg-4 text-center d-flex align-items-end">
+          <div class="logo shadow rounded" style="width: 16rem;">
+            <div class="card-body-logo">
+              <img src="./img/logo-opera.svg" alt="logo-Opera" width="36%">
+              <br><br>
+              <h5 class="card-title">Add to Opera</h5>
+              <p class="card-text text-black-50">Minimum version </p>
+              <img src="./img/bg-dots.svg" class="imagenDots" alt="dots" style="width: 90%;">
+              <div class="boton"> 
+                <a href="#" class="btn btn-primary">Add & install extension</a>
+            </div>
+            </div>
+          </div> 
+        </div>
+      </div>
+    </div>
+    <br><br><br><br><br><br>
+    <div class="row">
+      <div class="col d-flex justify-content-center text-center">
+        <div class="card" style="width: 33rem;">
+          <div class="card-body">
+            <h2 class="card-title">Frequently Asked Questions</h2>
+            <p class="card-text text-black-50">Here are some of our FAQs. If you have any other questions you'd like answered please feel free to email us.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col d-flex justify-content-center">
+        <div class="accordion accordion-flush" style="width: 525px;" id="accordionFlushExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingOne">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                What is Bookmark?
+              </button>
+            </h2>
+              <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the first item's accordion body.
+                </div>
+              </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingTwo">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                How can i request a new browser?
+              </button>
+            </h2>
+            <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine this being filled with some actual content.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+              Is there a mobile app?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="flush-headingThree">
+              <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseThree" aria-expanded="false" aria-controls="flush-collapseThree">
+                What about other Chromium browsers?
+              </button>
+            </h2>
+            <div id="flush-collapseThree" class="accordion-collapse collapse" aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">Placeholder content for this accordion, which is intended to demonstrate the <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more exciting happening here in terms of content, but just filling up the space to make it look, at least at first glance, a bit more representative of how this would look in a real-world application.</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <br><br>
+    <div class="container-moreInfo d-flex justify-content-center">
+      <button type="button" class="btn btn-primary">More info</button>
+    </div>
+    <br><br><br><br><br>
+  </div>
+  </main>
+  <footer>
+    <div class="container-fluid">
+      <div class="row bg-primary py-5">
+        <div class="col text-center d-flex justify-content-center">
+          <br><br>
+          <div class="card-footer bg-primary text-white" style="width: 28rem">
+            <div class="card-body">
+              <p class="card-title-footer">35.000 +  ALREADY JOINED</p>
+              <h2 class="card-text">Stay up-to-date with what we're doing</h2><br>
+              <form>
+                <div class="mb-3">
+                  <input type="text" class="email rounded text-dark" placeholder="    Enter your email adress" >
+                  <a href="#" class="btn btn-secondary mb-1 text-white">Contact Us</a>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <div class="container-fluid bg-danger">
+    <nav class="navbar footer navbar-expand-sm">
+      <div class="container">
+        <a class="navbar-brand" href="#"> 
+          <img
+          src="./img/logo-bookmark.svg"
+          alt="logo-bookmark"
+          width="140px"
+          height="24px"
+          />
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-link mx-4" aria-current="page" href="#">FEATURES</a>
+            <a class="nav-link mx-4" href="#">PRICING</a>
+            <a class="nav-link mx-4" href="#">CONTACT</a>
+          </div>
+        </div>
+        <div class="facebbok mx-auto d-flex justify-content-end ">
+          <a class="twiter" href="#"> 
+            <img
+            src="./img/icon-facebook.svg"
+            alt="logo-bookmark"
+            width="23px"
+            height="23px"
+            />
+          </a>
+        </div>
+        <div class="twiter mx-5">
+          <a class="tuiter" href="#"> 
+            <img
+            src="./img/icon-twitter.svg"
+            alt="logo-bookmark"
+            width="23px"
+            height="23px"
+            />
+          </a>
+        </div>
+      </div> 
+    </nav>
+  </div>  
+</div>
+
+
+<script src="./node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
